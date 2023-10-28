@@ -4,7 +4,7 @@ const path = require('path');
 const morgan = require('morgan');
 const cors = require('cors');
 const helmet = require('helmet');
-// require('./configs/db');
+require('./configs/db');
 
 const app = express();
 
