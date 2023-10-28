@@ -36,7 +36,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(morgan('dev'));
 
 // Rotas
-// app.use("/api", require('./routes/index'));
+app.use("/api", require('./routes/index'));
 
 // Tratamento de erros
 
